@@ -11,7 +11,7 @@ import SwiftUI
 struct __1_SwiftUiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomePage(user: User(avatar_url: "", followers: 1, following: 1,  login: "", repos_url: "", name: "", public_repos: 1, created_at: ""))
         }
     }
 }
